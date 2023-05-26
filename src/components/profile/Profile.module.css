@@ -1,0 +1,48 @@
+.profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  outline: 1px solid black;
+  gap: 15px;
+  width: 300px;
+  padding: 10px;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.avatar {
+  border-radius: 50%;
+  display: block;
+  max-width: 35%;
+  height: 35%;
+  object-fit: fill;
+  overflow: hidden;
+  background-color: black;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  margin: 0;
+}
