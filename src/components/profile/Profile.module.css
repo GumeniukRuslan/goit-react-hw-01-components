@@ -28,7 +28,7 @@
   background-color: black;
 }
 
-ul{
+.list{
   padding: 0;
   margin: 0;
   list-style: none;
@@ -36,6 +36,7 @@ ul{
   width: 100%;
   justify-content: space-around;
 }
+
 li{
   display: flex;
   flex-direction: column;
